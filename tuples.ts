@@ -9,7 +9,7 @@ function add3DCoordinates(
 
 console.log(add3DCoordinates([0, 0, 0], [10, 20, 30]));
 
-function simpleStringState(
+export function simpleStringState(
   initial: string
 ): [() => string, (v: string) => void] {
   let str: string = initial;
